@@ -6,7 +6,7 @@ import Footer from "../component/Footer";
 // --- WAKTU PENGUMUMAN ---
 // Berdasarkan "besok jam 3 sore" dari waktu server (Minggu, 9 Nov 2025)
 // Ini adalah Senin, 10 November 2025, 15:00 WIB (GMT+7)
-const ANNOUNCEMENT_TIME = new Date("2025-11-09T23:32:00+07:00").getTime();
+const ANNOUNCEMENT_TIME = new Date("2025-11-10T15:00:00+07:00").getTime();
 
 // --- Komponen Countdown ---
 const CountdownTimer = () => {
