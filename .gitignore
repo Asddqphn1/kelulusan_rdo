@@ -11,7 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
-
+datakelulusan.json
+qr.jpg
 
 
 # Editor directories and files
