@@ -1,0 +1,205 @@
+[
+  {
+    "namaLengkap": "M. Akbar",
+    "nim": "12550114518",
+    "tanggalLahir": "17/07/2025",
+    "statusLulus": "burung",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Ahmad Hadid",
+    "nim": "12450110490",
+    "tanggalLahir": "08/09/2005",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Bayu Hendrawan",
+    "nim": "12450110367",
+    "tanggalLahir": "21/06/2006",
+    "statusLulus": "lulus",
+    "divisiLulus": "IOT Development"
+  },
+  {
+    "namaLengkap": "Melvin Chesta Adabi",
+    "nim": "12550111251",
+    "tanggalLahir": "01/01/2007",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Zikri Maulana",
+    "nim": "12550111679",
+    "tanggalLahir": "29/01/2007",
+    "statusLulus": "lulus",
+    "divisiLulus": "Software Development"
+  },
+  {
+    "namaLengkap": "Naufal Kurnia",
+    "nim": "12550111917",
+    "tanggalLahir": "15/07/2007",
+    "statusLulus": "lulus",
+    "divisiLulus": "Software Development"
+  },
+  {
+    "namaLengkap": "Raffa Eka Prayoga",
+    "nim": "12550110327",
+    "tanggalLahir": "22/01/2007",
+    "statusLulus": "lulus",
+    "divisiLulus": "Software Development"
+  },
+  {
+    "namaLengkap": "Muhammad Heru Wirawan",
+    "nim": "12550110282",
+    "tanggalLahir": "18/11/2006",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Idzni Tri Nabila",
+    "nim": "12450121312",
+    "tanggalLahir": "23/04/2006",
+    "statusLulus": "lulus",
+    "divisiLulus": "Software Development"
+  },
+  {
+    "namaLengkap": "Habib Al-Bukhari",
+    "nim": "12550110018",
+    "tanggalLahir": "05/12/2006",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "M.Rizki Amanda Nainggolan",
+    "nim": "12450114323",
+    "tanggalLahir": "11/01/2004",
+    "statusLulus": "lulus",
+    "divisiLulus": "IOT Development"
+  },
+  {
+    "namaLengkap": "Muhammad Zacky Pratama",
+    "nim": "12450111390",
+    "tanggalLahir": "21/07/2006",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Rifan Sahrul Gunawan",
+    "nim": "12450113215",
+    "tanggalLahir": "03/05/2006",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Rafandi Nova Fitra",
+    "nim": "12450111114",
+    "tanggalLahir": "07/11/2005",
+    "statusLulus": "lulus",
+    "divisiLulus": "Software Development"
+  },
+  {
+    "namaLengkap": "Hamid Hadi Sulthan",
+    "nim": "12550110143",
+    "tanggalLahir": "26/06/2007",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Diva septiyanti",
+    "nim": "12550125251",
+    "tanggalLahir": "03/09/2007",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "RADIT GILANG RAMADHAN SIAMBATON",
+    "nim": "12450115282",
+    "tanggalLahir": "09/10/2005",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Rendi Hidayah",
+    "nim": "12440114867",
+    "tanggalLahir": "26/06/2005",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Muhammad Yahya Ayyasy",
+    "nim": "12450111698",
+    "tanggalLahir": "03/03/2006",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Gilang Rifki Pratama",
+    "nim": "12550111057",
+    "tanggalLahir": "21/02/2007",
+    "statusLulus": "lulus",
+    "divisiLulus": "Software Development"
+  },
+  {
+    "namaLengkap": "Arif Rahman Muda",
+    "nim": "12450111287",
+    "tanggalLahir": "22/10/2005",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Andika Pratama Lupi",
+    "nim": "12450112722",
+    "tanggalLahir": "06/09/2006",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Rival Alvian Melfandy",
+    "nim": "12450110941",
+    "tanggalLahir": "26/05/2005",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Hasbi Ashshadiqi",
+    "nim": "12450111411",
+    "tanggalLahir": "10/11/2005",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "M Hafizh Habibillah",
+    "nim": "12450113061",
+    "tanggalLahir": "14/03/2006",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Muhammad shidiq",
+    "nim": "12450114508",
+    "tanggalLahir": "13/12/2005",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "rifa'i firmansyah",
+    "nim": "12450111227",
+    "tanggalLahir": "17/05/2006",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "Irwansyah putra",
+    "nim": "12450110246",
+    "tanggalLahir": "16/12/2005",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  },
+  {
+    "namaLengkap": "M. Yusuf Hamsah",
+    "nim": "12450110894",
+    "tanggalLahir": "17/10/2004",
+    "statusLulus": "tidak_lulus",
+    "divisiLulus": null
+  }
+]
