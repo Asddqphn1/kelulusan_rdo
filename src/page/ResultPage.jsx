@@ -209,7 +209,7 @@ export default function ResultPage() {
               d="M10 19l-7-7m0 0l7-7m-7 7h18"
             />
           </svg>
-          Kembali ke Login
+          Kembali ke Halaman Cek Kelulusan
         </Link>
       </div>
       <Footer />

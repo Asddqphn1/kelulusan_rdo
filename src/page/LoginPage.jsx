@@ -26,11 +26,20 @@ export default function LoginPage() {
 
       const data = await response.json();
 
+      // Standarisasi string: hapus spasi, hapus titik, ubah ke huruf kecil
+      const standardizeName = (str) =>
+        str
+          .trim()
+          .toLowerCase()
+          .replace(/\s/g, "") // Menghapus semua karakter spasi
+          .replace(/\./g, ""); // Menghapus semua karakter titik
+
+      const standardizedNamaInput = standardizeName(nama);
+
       const peserta = data.find(
         (p) =>
-          p.namaLengkap.trim().toLowerCase() === nama.trim().toLowerCase() &&
+          standardizeName(p.namaLengkap) === standardizedNamaInput && // Bandingkan nama yang sudah distandarisasi
           p.nim.trim() === nim.trim() &&
-          // Bandingkan dengan tanggal yang sudah diformat
           p.tanggalLahir.trim() === formattedTanggalLahir
       );
 
@@ -62,7 +71,7 @@ export default function LoginPage() {
             <h1 className="text-4xl font-extrabold text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.3)]">
               Pengumuman Oprek
             </h1>
-            <p className="text-[var(--color-accent-pink)] font-bold tracking-widest mt-2 drop-shadow-sm">
+            <p className="text-(--color-accent-pink) font-bold tracking-widest mt-2 drop-shadow-sm">
               LABSSQUAD RDO 2025
             </p>
           </div>
@@ -111,6 +120,7 @@ export default function LoginPage() {
                 value={tanggalLahir}
                 onChange={(e) => setTanggalLahir(e.target.value)}
                 className={`${inputClass} cursor-pointer`}
+                placeholder="DD/MM/YYYY"
                 required
               />
             </div>
@@ -124,7 +134,7 @@ export default function LoginPage() {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full py-4 px-6 bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] hover:from-[var(--color-secondary)] hover:to-[var(--color-primary)] text-white font-bold text-lg rounded-xl shadow-lg transition-all disabled:opacity-70 disabled:cursor-not-allowed active:scale-[0.98]"
+              className="w-full py-4 px-6 bg-linear-to-r from-(--color-primary) to-(--color-secondary) hover:from-(--color-secondary) hover:to-(--color-primary) text-white font-bold text-lg rounded-xl shadow-lg transition-all disabled:opacity-70 disabled:cursor-not-allowed active:scale-[0.98]"
             >
               {isLoading ? (
                 <span className="flex items-center justify-center gap-2">
