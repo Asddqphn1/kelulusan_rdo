@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+
+@layer base {
+  :root {
+    /* --- Vibrant Palette (Tetap Sama) --- */
+    --color-primary: #9E336C;
+    --color-secondary: #DA7CA7;
+    --color-accent-blue: #8FEAFB;
+    --color-accent-pink: #EEA9F2;
+    --color-purple-soft: #AB92E8;
+    --color-purple-light: #C1BDE1;
+    --color-blue-light: #C0EBFA;
+    
+    /* Status Colors */
+    --status-lulus: #39FF14;
+    --status-gagal: #FF3131;
+  }
+
+  body {
+    @apply font-sans text-gray-100 min-h-screen overflow-x-hidden relative;
+    /* Gradient Background */
+    background: linear-gradient(-45deg, var(--color-primary), var(--color-purple-soft), var(--color-accent-blue), var(--color-primary));
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+
+  /* Overlay Gelap untuk Meningkatkan Kontras */
+  body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* Lapisan hitam 40% transparan */
+    z-index: -1; /* Di belakang konten, di depan background */
+  }
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+/* Glassmorphism Card - Lebih Gelap untuk Kontras Lebih Baik */
+.glass-card {
+  @apply bg-black/40 backdrop-blur-xl border border-white/10 shadow-2xl;
+}
+/* --- Animasi "Burung" --- */
+/* Tailwind v4 akan mendeteksi @keyframes ini secara otomatis */
+@keyframes fly {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
